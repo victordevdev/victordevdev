@@ -1,48 +1,38 @@
-# 👋 Salut, moi c’est Victor
-
-🎮 Ingénieur logiciel & chef de projet avec une passion pour le trail et le développement de jeux  
-🏃 Je développe des side-projects Unity inspirés du monde du trail running  
-💻 4+ ans d’expérience en C/C++, Java, systèmes embarqués & backend
-
----
-
-## 🔧 Technologies & Domaines
-
-- **Langages** : C, C++, Java, C#, Bash, SQL
-- **Outils** : Git, Docker, Gradle, GStreamer, Unity, Postman
-- **Systèmes** : Linux (Ubuntu, Rocky), Windows
-- **Méthodes** : Agile / Scrum, CI/CD, gestion de projet
+👋 Salut, moi c’est Victor  
+💻 Ingénieur logiciel & développeur backend passionné par le code propre, les systèmes distribués et la conception d’API.  
+🎯 Anciennement ancré dans le C/C++, je monte désormais en puissance sur Java & Spring Boot, avec un fort intérêt pour les bases de données et la qualité logicielle.  
+🏃‍♂️ Et quand je ne code pas, je m’entraîne pour l’UTMB — trail & tech, même combat 💪  
 
 ---
 
-## 🚧 Projets en cours
-
-### 🎮 [`runner-trail-prototype`](https://github.com/victordevdev/runner-trail-prototype)
-> Prototype de jeu de runner 2D en Unity, inspiré du trail running  
-> 💡 Objectif : créer un gameplay simple, fun et progressif, comme une montée d’UTMB
-
-### 🧪 `unity-learning-labs` *(à venir)*
-> Série d’expérimentations Unity (mouvements, collisions, UI, shaders, systèmes de jeu)
-
-### 🧩 `clash-of-trail` *(en réflexion)*
-> Jeu mobile de progression autour d’un trailer à entraîner, équiper et faire évoluer
+### 🔧 Stack & Domaines de compétence
+**Langages :** Java, C, C++, C#, SQL, Bash  
+**Frameworks & outils :** Spring Boot, Gradle, Docker, Git, Postman, Unity  
+**Bases de données :** MySQL, H2, SQLite  
+**Systèmes :** Linux (Ubuntu, Rocky), Windows  
+**Méthodes :** Agile / Scrum, CI/CD, documentation technique, tests fonctionnels
 
 ---
 
-## 🛠️ En parallèle
-
-- 🌱 Je reprends Unity après une première expérience en AR
-- 🧠 Je monte un portfolio de projets persos
-- ⛰️ Je prépare l’UTMB 2026 (passion trail inside)
-
----
-
-## 📫 Me contacter
-
-- `victor.ducray.dev@proton.me`
-- Portfolio et site en construction
+### 🚀 Projets récents
+🗃️ **PromptVault**  
+API REST en Java / Spring Boot permettant aux utilisateurs d’enregistrer et de partager leurs prompts ChatGPT.  
+→ Gestion d’utilisateurs, base MySQL, Swagger UI, architecture propre et évolutive.  
 
 ---
 
-Merci d’être passé·e 👋  
-Tu peux suivre mes projets, proposer des idées ou me défier sur une version *"côte + singletrack + pluie + gels"* 😄
+### 📚 Objectifs actuels
+🌱 Approfondir mes compétences backend : Spring Boot, JPA/Hibernate, sécurité (JWT), tests d’intégration  
+🧠 Structurer mes projets open-source et documenter mes APIs  
+🚀 Créer un portfolio technique clair et déployé en ligne  
+
+---
+
+### 📫 Me contacter
+📧 victor.ducray.dev@proton.me  
+🌐 Portfolio en construction — à venir : démonstrations interactives de mes projets  
+💬 Toujours ouvert à discuter dev, backend ou ultra-trail !
+
+---
+
+> “Code, endurance et curiosité — tout est une question de persévérance.”

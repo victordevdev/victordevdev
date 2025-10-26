@@ -1,4 +1,4 @@
-###👋 Salut, moi c’est Victor  
+Salut, moi c’est Victor  
 💻 Ingénieur logiciel & développeur backend passionné par le **code propre**, les **systèmes distribués** et la **conception d’API REST modernes**.  
 🎯 Anciennement ancré dans le C/C++, je monte désormais en puissance sur **Java / Spring Boot**, avec un fort intérêt pour la **qualité logicielle**, la **sécurité applicative** et le **déploiement cloud**.  
 🏃‍♂️ Et quand je ne code pas, je m’entraîne pour l’UTMB — trail & tech, même combat 💪

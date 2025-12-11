@@ -2,109 +2,187 @@
 
 <h1 align="center">Victor Ducray</h1>
 <p align="center">
-  Développeur Backend · Architectures propres · DevOps · Trailer à mes heures de repos.
+  <strong>Ingenieur Logiciel Senior</strong> · 5 ans d'experience · Backend & Systemes · DevOps · Trailer
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Spring%20Boot-3-6DB33F?logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-17-007396?logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/C/C++-00599C?logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/GStreamer-Video_Pipeline-EE3124?logo=gnome&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java_17-Spring_Boot_3-6DB33F?logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-Production-FCC624?logo=linux&logoColor=black" />
   <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Traefik-v3-24A1C1?logo=traefikmesh&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/React-Next.js-61DAFB?logo=react&logoColor=black" />
 </p>
+
+<p align="center">
+  <a href="https://victordevdev.ovh">Portfolio</a> ·
+  <a href="mailto:victor.ducray.dev@proton.me">Contact</a> ·
+  <a href="https://github.com/vicdevdev">GitHub</a>
+</p>
+
+---
+
+<!-- ====== EXPERIENCE PRO ====== -->
+
+## Experience Professionnelle
+
+### Spirtech — Ingenieur Logiciel
+`Sept 2024 - Present` · Paris
+
+---
+
+### COSSILYS (Hirsch) — Ingenieur Logiciel VMS
+`Oct 2021 - Sept 2024` · 3 ans · Lyon
+
+Developpement C/C++ au coeur d'une solution de gestion video (VMS) sous Linux.
+
+**Traitement Video & Streaming**
+- Pipelines GStreamer : relecture et live streaming
+- Flux temps reel faible latence (< 100ms)
+- Integration RTSP, ONVIF, PTZ
+- Optimisation : latence, debit, multithreading, gestion memoire
+
+**Fonctionnalites & Integrations**
+- Algorithmes IA de detection integres au pipeline video (analyse temps reel)
+- Architecture MQTT complete (pub/sub, QoS, reconnexion auto)
+- Virtualisation multi-environnements
+
+**Qualite & Industrialisation**
+- CI/CD, tests automatises, code review
+- Debugging : GDB, Valgrind, GST_DEBUG
+- MCO en environnement critique
+
+`Stack : C, C++, GStreamer, GLib, Linux, Bash, MQTT, Git, Valgrind, GDB`
+
+---
+
+### Bosch — Ingenieur R&D Vision par Ordinateur
+`Juil 2019 - Juil 2020` · 1 an · Allemagne
+
+- Navigation robot autonome (C++, ROS)
+- Algorithmes de detection d'obstacles et path planning
+- Analyse comportementale via cameras multi-capteurs
+
+---
+
+### MuseoPic — Stagiaire R&D Realite Augmentee
+`Fev 2021 - Aout 2021` · Lyon
+
+- Jeu AR pour le chateau des Adhemar (Unity, C#)
+- Mediatheque augmentee de Bron
 
 ---
 
 <!-- ====== STACK ====== -->
 
-## Stack & Technologies
+## Stack Technique
 
-### Langages
-![Java](https://img.shields.io/badge/Java-17-007396?logo=openjdk&logoColor=white)
+### Bas niveau & Systemes
 ![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-025E8C?logo=sqlite&logoColor=white)
+![GStreamer](https://img.shields.io/badge/GStreamer-EE3124?logo=gnome&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/Bash-121011?logo=gnubash&logoColor=white)
 
-### Backend & Outils
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-6DB33F?logo=springboot&logoColor=white)
-![Gradle](https://img.shields.io/badge/Gradle-02303A?logo=gradle&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Actions-2088FF?logo=githubactions&logoColor=white)
+### Backend
+![Java](https://img.shields.io/badge/Java_17-007396?logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?logo=springboot&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-660066?logo=mqtt&logoColor=white)
 
 ### Frontend
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/TailwindCSS-0EA5E9?logo=tailwindcss&logoColor=white)
 
-### DevOps & Systèmes
+### DevOps & Infra
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Traefik](https://img.shields.io/badge/Traefik-v3-24A1C1?logo=traefikmesh&logoColor=white)
-![Linux Debian](https://img.shields.io/badge/Linux-Debian_13-A81D33?logo=debian&logoColor=white)
-![Linux Rocky](https://img.shields.io/badge/Linux-Rocky_8-10B981?logo=rockylinux&logoColor=white)
-![WSL2](https://img.shields.io/badge/WSL2-0A97F5?logo=windows-terminal&logoColor=white)
+![Traefik](https://img.shields.io/badge/Traefik_v3-24A1C1?logo=traefikmesh&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
+![Valgrind](https://img.shields.io/badge/Valgrind-Debug-red)
+![GDB](https://img.shields.io/badge/GDB-Debug-orange)
 
 ---
 
 <!-- ====== PROJECTS ====== -->
 
-## Projets principaux
+## Projets Personnels
 
-### PromptVault  
-> Gestionnaire complet de prompts IA, full-stack et déployé en production.
+### Prompt Vault
+> Gestionnaire de prompts IA — full-stack, deploye en production
 
-- Backend : Java 17, Spring Boot 3  
-- Frontend : React + Vite  
-- Base de données : PostgreSQL  
-- DevOps : Docker, Traefik v2, images GitHub Actions  
-- Features : Auth JWT, CRUD, multi-env, HTTPS, API Swagger  
+- **Backend** : Java 17, Spring Boot 3, PostgreSQL
+- **Frontend** : React + Vite
+- **DevOps** : Docker, Traefik, GitHub Actions, HTTPS
+- **Features** : Auth JWT, CRUD complet, API Swagger
 
----
-
-### RepS  
-> Application d’entraînement musculaire — simple, rapide, efficace.
-
-- API Spring Boot 4  
-- PostgreSQL 17  
-- Front React  
-- Architecture clean & prête pour le VPS  
-- Déploiement : Docker Compose + Traefik
+[pv.victordevdev.ovh](https://pv.victordevdev.ovh)
 
 ---
 
-### RunTheStory  
-> Projet créatif : audio-histoires géolocalisées pendant la course.
+### Eat Your Run
+> Calcul des calories brulees et suggestions de recompenses alimentaires
 
-- Stack : Spring Boot + React  
-- GPS, chapitres audio, progression joueur  
-- Déploiement prévu 2025 (VPS)
-
----
-
-### VPS Infrastructure (Traefik Factory)  
-> Mon environnement DevOps complet, propre et scalable.
-
-- Traefik v3 + HTTPS automatique  
-- Réseaux & users Linux dédiés par projet  
-- Déploiements via Docker Compose / GitHub Actions  
-- Architecture organisée  
-- Logs & monitoring (en cours)
+- **Stack** : Next.js, TypeScript, Strava API, OAuth 2.0
+- **Features** : Connexion Strava, calcul calorique, gamification nutrition
+- **Statut** : En developpement actif
 
 ---
 
-<!-- ====== CURRENT WORK ====== -->
+### Run The Story
+> Application mobile audio-narrative pour decouvrir Paris en courant
 
-## Ce que je construis en ce moment
+- **Stack** : React Native, Expo, Node.js
+- **Features** : GPS, chapitres audio geolocalisees, progression
+- **Concept** : Histoire des arrondissements de Paris pendant tes runs
 
-- Architecture multi-services (PromptVault · RepS · RunTheStory)  
-- Pipeline CI/CD GitHub → Docker → VPS  
-- Portfolio Next.js avec démos publiques  
-- Optimisation Spring Security & JWT  
-- Préparation physique : Mallorca 100K, objectif UTMB 202X 
+[rts.victordevdev.ovh](https://rts.victordevdev.ovh/app)
+
+---
+
+### VPS Infrastructure
+> Environnement DevOps complet et scalable
+
+- Traefik v3 + HTTPS automatique (Let's Encrypt)
+- Reseaux & users Linux dedies par projet
+- Deploiements Docker Compose + GitHub Actions
+- Architecture multi-services
+
+---
+
+### RepS *(en pause)*
+> Application d'entrainement musculaire
+
+- API Spring Boot, PostgreSQL, React
+- Architecture clean, prete pour deploiement
+- Projet mis en pause pour focus sur les projets trail
+
+---
+
+<!-- ====== OTHER SKILLS ====== -->
+
+## Autres Competences
+
+| Domaine | Details |
+|---------|---------|
+| **Video & Streaming** | GStreamer, RTSP, ONVIF, pipelines temps reel, latence < 100ms |
+| **Protocoles** | MQTT, REST, WebSocket, OAuth 2.0 |
+| **Debug & Profiling** | GDB, Valgrind, GST_DEBUG, memory management |
+| **Methodologie** | CI/CD, code review, tests automatises, documentation technique |
+| **Langues** | Francais (natif), Anglais (C1 Cambridge) |
+| **Passion** | Trail & Ultra — Objectif UTMB 2026 |
+
+---
+
+<!-- ====== CURRENT FOCUS ====== -->
+
+## En cours
+
+- Architecture multi-services (PromptVault · EatYourRun · RunTheStory)
+- Pipeline CI/CD : GitHub → Docker → VPS
+- Integration Strava API pour EatYourRun
+- Preparation UTMB 2026
 
 ---
 
@@ -112,7 +190,12 @@
 
 ## Contact
 
-**📧 Email** : victor.ducray.dev@proton.me  
-**🌐 Portfolio** : en cours de construction  
+| | |
+|---|---|
+| **Email** | victor.ducray.dev@proton.me |
+| **Portfolio** | [victordevdev.ovh](https://victordevdev.ovh) |
+| **GitHub** | [github.com/vicdevdev](https://github.com/vicdevdev) |
 
-> Construire, optimiser, documenter, déployer — toujours progresser.
+---
+
+> Construire, optimiser, documenter, deployer — toujours progresser.

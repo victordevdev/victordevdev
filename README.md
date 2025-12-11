@@ -97,8 +97,7 @@
 - Reseaux & users Linux dedies par projet
 - Deploiements Docker Compose + GitHub Actions
 - Architecture multi-services
-
-[architecture](https://victordevdev.ovh/architecture)
+[victordevdev.architecture](https://victordevdev.ovh/architecture)
 ---
 
 ### RepS *(en pause)*

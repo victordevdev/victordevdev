@@ -22,57 +22,6 @@
 
 ---
 
-<!-- ====== EXPERIENCE PRO ====== -->
-
-## Experience Professionnelle
-
-### Spirtech — Ingenieur Logiciel
-`Sept 2024 - Present` · Paris
-
----
-
-### COSSILYS (Hirsch) — Ingenieur Logiciel VMS
-`Oct 2021 - Sept 2024` · 3 ans · Lyon
-
-Developpement C/C++ au coeur d'une solution de gestion video (VMS) sous Linux.
-
-**Traitement Video & Streaming**
-- Pipelines GStreamer : relecture et live streaming
-- Flux temps reel faible latence (< 100ms)
-- Integration RTSP, ONVIF, PTZ
-- Optimisation : latence, debit, multithreading, gestion memoire
-
-**Fonctionnalites & Integrations**
-- Algorithmes IA de detection integres au pipeline video (analyse temps reel)
-- Architecture MQTT complete (pub/sub, QoS, reconnexion auto)
-- Virtualisation multi-environnements
-
-**Qualite & Industrialisation**
-- CI/CD, tests automatises, code review
-- Debugging : GDB, Valgrind, GST_DEBUG
-- MCO en environnement critique
-
-`Stack : C, C++, GStreamer, GLib, Linux, Bash, MQTT, Git, Valgrind, GDB`
-
----
-
-### Bosch — Ingenieur R&D Vision par Ordinateur
-`Juil 2019 - Juil 2020` · 1 an · Allemagne
-
-- Navigation robot autonome (C++, ROS)
-- Algorithmes de detection d'obstacles et path planning
-- Analyse comportementale via cameras multi-capteurs
-
----
-
-### MuseoPic — Stagiaire R&D Realite Augmentee
-`Fev 2021 - Aout 2021` · Lyon
-
-- Jeu AR pour le chateau des Adhemar (Unity, C#)
-- Mediatheque augmentee de Bron
-
----
-
 <!-- ====== STACK ====== -->
 
 ## Stack Technique
@@ -171,18 +120,17 @@ Developpement C/C++ au coeur d'une solution de gestion video (VMS) sous Linux.
 | **Debug & Profiling** | GDB, Valgrind, GST_DEBUG, memory management |
 | **Methodologie** | CI/CD, code review, tests automatises, documentation technique |
 | **Langues** | Francais (natif), Anglais (C1 Cambridge) |
-| **Passion** | Trail & Ultra — Objectif UTMB 2026 |
 
 ---
 
-<!-- ====== CURRENT FOCUS ====== -->
+<!-- ====== PRO ====== -->
 
-## En cours
+## Experience Pro
 
-- Architecture multi-services (PromptVault · EatYourRun · RunTheStory)
-- Pipeline CI/CD : GitHub → Docker → VPS
-- Integration Strava API pour EatYourRun
-- Preparation UTMB 2026
+> 5 ans d'experience en ingenierie logicielle — C/C++, Java, Linux, systemes video
+
+- **VMS & Video** : 3 ans sur plateforme de gestion video (GStreamer, RTSP, ONVIF, IA temps reel)
+- **R&D** : Vision par ordinateur chez Bosch (C++, ROS), Realite augmentee chez MuseoPic (Unity, C#)
 
 ---
 

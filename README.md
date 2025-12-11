@@ -130,7 +130,7 @@
 > 5 ans d'experience en ingenierie logicielle — C/C++, Java, Linux, systemes video
 
 - **VMS & Video** : 3 ans sur plateforme de gestion video (GStreamer, RTSP, ONVIF, IA temps reel)
-- **R&D** : Vision par ordinateur chez Bosch (C++, ROS), Realite augmentee chez MuseoPic (Unity, C#)
+- **R&D** : Vision par ordinateur (C++, ROS), Realite augmentee (Unity, C#)
 
 ---
 

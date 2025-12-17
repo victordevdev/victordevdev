@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C/C++-00599C?logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-FastAPI-3776AB?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/GStreamer-Video_Pipeline-EE3124?logo=gnome&logoColor=white" />
   <img src="https://img.shields.io/badge/Java_17-Spring_Boot_3-6DB33F?logo=springboot&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-Production-FCC624?logo=linux&logoColor=black" />
@@ -17,7 +17,7 @@
 <p align="center">
   <a href="https://victordevdev.ovh">Portfolio</a> ·
   <a href="mailto:victor.ducray.dev@proton.me">Contact</a> ·
-  <a href="https://github.com/vicdevdev">GitHub</a>
+  <a href="https://github.com/victordevdev">GitHub</a>
 </p>
 
 ---
@@ -34,10 +34,11 @@
 ![Bash](https://img.shields.io/badge/Bash-121011?logo=gnubash&logoColor=white)
 
 ### Backend
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 ![Java](https://img.shields.io/badge/Java_17-007396?logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?logo=springboot&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-660066?logo=mqtt&logoColor=white)
 
 ### Frontend
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
@@ -45,18 +46,33 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/TailwindCSS-0EA5E9?logo=tailwindcss&logoColor=white)
 
+### IA & Computer Vision
+![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?logo=yolo&logoColor=black)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
+
 ### DevOps & Infra
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Traefik](https://img.shields.io/badge/Traefik_v3-24A1C1?logo=traefikmesh&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
-![Valgrind](https://img.shields.io/badge/Valgrind-Debug-red)
-![GDB](https://img.shields.io/badge/GDB-Debug-orange)
 
 ---
 
 <!-- ====== PROJECTS ====== -->
 
 ## Projets Personnels
+
+### StreamScan
+> Pipeline de streaming video avec analyse IA en temps reel
+
+- **Backend** : Python, FastAPI, GStreamer (RTSP → HLS)
+- **IA** : YOLOv8 pour detection d'objets temps reel
+- **Frontend** : React 19, TypeScript, HLS.js, React Flow
+- **Features** : Pipeline interactif, bounding boxes overlay, dashboard metriques
+- **Statut** : En cours de developpement
+
+[Code source](https://github.com/victordevdev/interview/tree/main/projet_perso_orasio/detect-my-live)
+
+---
 
 ### Prompt Vault
 > Gestionnaire de prompts IA — full-stack, deploye en production
@@ -67,15 +83,6 @@
 - **Features** : Auth JWT, CRUD complet, API Swagger
 
 [pv.victordevdev.ovh](https://pv.victordevdev.ovh)
-
----
-
-### Eat Your Run
-> Calcul des calories brulees et suggestions de recompenses alimentaires
-
-- **Stack** : Next.js, TypeScript, Strava API, OAuth 2.0
-- **Features** : Connexion Strava, calcul calorique, gamification nutrition
-- **Statut** : En developpement actif
 
 ---
 
@@ -90,6 +97,15 @@
 
 ---
 
+### Eat Your Run
+> Calcul des calories brulees et suggestions de recompenses alimentaires
+
+- **Stack** : Next.js, TypeScript, Strava API, OAuth 2.0
+- **Features** : Connexion Strava, calcul calorique, gamification nutrition
+- **Statut** : En developpement
+
+---
+
 ### VPS Infrastructure
 > Environnement DevOps complet et scalable
 
@@ -98,16 +114,7 @@
 - Deploiements Docker Compose + GitHub Actions
 - Architecture multi-services
 
-[victordevdev.architecture](https://victordevdev.ovh/architecture)
-
----
-
-### RepS *(en pause)*
-> Application d'entrainement musculaire
-
-- API Spring Boot, PostgreSQL, React
-- Architecture clean, prete pour deploiement
-- Projet mis en pause pour focus sur les projets trail
+[victordevdev.ovh/architecture](https://victordevdev.ovh/architecture)
 
 ---
 
@@ -117,7 +124,7 @@
 
 | Domaine | Details |
 |---------|---------|
-| **Video & Streaming** | GStreamer, RTSP, ONVIF, pipelines temps reel, latence < 100ms |
+| **Video & Streaming** | GStreamer, RTSP, ONVIF, HLS, pipelines temps reel |
 | **Protocoles** | MQTT, REST, WebSocket, OAuth 2.0 |
 | **Debug & Profiling** | GDB, Valgrind, GST_DEBUG, memory management |
 | **Methodologie** | CI/CD, code review, tests automatises, documentation technique |

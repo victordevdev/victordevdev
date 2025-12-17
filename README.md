@@ -17,7 +17,6 @@
 <p align="center">
   <a href="https://victordevdev.ovh">Portfolio</a> ·
   <a href="mailto:victor.ducray.dev@proton.me">Contact</a> ·
-  <a href="https://github.com/victordevdev">GitHub</a>
 </p>
 
 ---

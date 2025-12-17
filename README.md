@@ -148,7 +148,6 @@
 |---|---|
 | **Email** | victor.ducray.dev@proton.me |
 | **Portfolio** | [victordevdev.ovh](https://victordevdev.ovh) |
-| **GitHub** | [github.com/victordevdev](https://github.com/victordevdev) |
 
 ---
 

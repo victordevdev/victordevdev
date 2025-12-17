@@ -61,7 +61,7 @@
 ## Projets Personnels
 
 ### StreamScan
-> Pipeline de streaming video avec analyse IA en temps reel
+> Pipeline de streaming video avec analyse
 
 - **Backend** : Python, FastAPI, GStreamer (RTSP → HLS)
 - **IA** : YOLOv8 pour detection d'objets temps reel

@@ -69,8 +69,6 @@
 - **Features** : Pipeline interactif, bounding boxes overlay, dashboard metriques
 - **Statut** : En cours de developpement
 
-[Code source](https://github.com/victordevdev/interview/tree/main/projet_perso_orasio/detect-my-live)
-
 ---
 
 ### Prompt Vault

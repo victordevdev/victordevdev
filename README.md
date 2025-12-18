@@ -2,7 +2,7 @@
 
 <h1 align="center">Victor Ducray</h1>
 <p align="center">
-  <strong>Ingenieur Logiciel Senior</strong> · 5 ans d'experience · Backend & Systemes · DevOps · Trailer
+  <strong>Ingenieur Logiciel </strong> · 5 ans d'experience · Backend & Systemes · DevOps · Trailer
 </p>
 
 <p align="center">

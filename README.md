@@ -68,7 +68,7 @@
 - **Frontend** : React 19, TypeScript, HLS.js, React Flow
 - **Features** : Pipeline interactif, bounding boxes overlay, dashboard metriques
 
-[streamscan.victordevdev.ovh]((https://streamscan.victordevdev.ovh/))
+[streamscan.victordevdev.ovh](https://streamscan.victordevdev.ovh)
 
 ---
 

@@ -67,7 +67,8 @@
 - **IA** : YOLOv8 pour detection d'objets temps reel
 - **Frontend** : React 19, TypeScript, HLS.js, React Flow
 - **Features** : Pipeline interactif, bounding boxes overlay, dashboard metriques
-- **Statut** : En cours de developpement
+
+[streamscan.victordevdev.ovh]((https://streamscan.victordevdev.ovh/))
 
 ---
 

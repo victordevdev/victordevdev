@@ -2,7 +2,7 @@
 
 <h1 align="center">Victor Ducray</h1>
 <p align="center">
-  <strong>Ingenieur Logiciel </strong> · 5 ans d'experience · Backend & Systemes · DevOps · Trailer
+  <strong>Ingenieur Logiciel </strong> · 5 ans d'experience · Backend & Systemes · DevSecOps · Trailer
 </p>
 
 <p align="center">
@@ -49,7 +49,7 @@
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?logo=yolo&logoColor=black)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
 
-### DevOps & Infra
+### DevSecOps & Infra
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Traefik](https://img.shields.io/badge/Traefik_v3-24A1C1?logo=traefikmesh&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
@@ -60,27 +60,38 @@
 
 ## Projets Personnels
 
-### StreamScan
-> Pipeline de streaming video avec analyse
+### MyFinishTime
+> Analyse de performance running avec metriques avancees basées sur les données strava d'un utilisateur
 
-- **Backend** : Python, FastAPI, GStreamer (RTSP → HLS)
-- **IA** : YOLOv8 pour detection d'objets temps reel
-- **Frontend** : React 19, TypeScript, HLS.js, React Flow
-- **Features** : Pipeline interactif, bounding boxes overlay, dashboard metriques
+- **Stack** : Next.js, TypeScript, Strava API, OAuth 2.0
+- **Features** : Performance Index UTMB / ITRA, analyse sur 12 mois, option de partage des prédictions
+- **Concept** : Visualiser sa progression et predire ses temps de course
 
-[streamscan.victordevdev.ovh](https://streamscan.victordevdev.ovh)
+[mft.victordevdev.ovh](https://mft.victordevdev.ovh)
 
 ---
 
 ### Prompt Vault
-> Gestionnaire de prompts IA — full-stack, deploye en production
+> Gestionnaire de prompts IA
 
 - **Backend** : Java 17, Spring Boot 3, PostgreSQL
 - **Frontend** : React + Vite
-- **DevOps** : Docker, Traefik, GitHub Actions, HTTPS
-- **Features** : Auth JWT, CRUD complet, API Swagger
+- **DevSecOps** : Docker, Traefik, GitHub Actions, HTTPS
+- **Features** : Auth JWT, CRUD complet, API Swagger, support multi-IA (GPT, Claude, Gemini)
 
 [pv.victordevdev.ovh](https://pv.victordevdev.ovh)
+
+---
+
+### StreamScan
+> Pipeline de streaming video avec analyse YOLO en direct
+
+- **Backend** : Python, FastAPI, GStreamer
+- **IA** : YOLOv8 pour detection d'objets temps reel
+- **Frontend** : React 19, TypeScript
+- **Features** : Pipeline interactif, bounding boxes overlay, dashboard metriques
+
+[streamscan.victordevdev.ovh](https://streamscan.victordevdev.ovh)
 
 ---
 
@@ -88,24 +99,26 @@
 > Application mobile audio-narrative pour decouvrir Paris en courant
 
 - **Stack** : React Native, Expo, Node.js
-- **Features** : GPS, chapitres audio geolocalisees, progression
+- **Features** : GPS, chapitres audio geolocalisees, progression, carte interactive
 - **Concept** : Histoire des arrondissements de Paris pendant tes runs
 
 [rts.victordevdev.ovh](https://rts.victordevdev.ovh/app)
 
 ---
 
-### Eat Your Run
-> Calcul des calories brulees et suggestions de recompenses alimentaires
+### Video Reconstructor
+> Reconstruction de video corrompue (frames melangees + images parasites)
 
-- **Stack** : Next.js, TypeScript, Strava API, OAuth 2.0
-- **Features** : Connexion Strava, calcul calorique, gamification nutrition
-- **Statut** : En developpement
+- **Stack** : C++20, CMake, OpenCV 4.x
+- **Algorithme** : SSIM (Structural Similarity), detection 3-sigma, reconstruction greedy
+- **Concept** : Reordonner automatiquement les frames d'une video corrompue
+
+[github.com/victordevdev/video-reconstructor](https://github.com/victordevdev/video-reconstructor)
 
 ---
 
 ### VPS Infrastructure
-> Environnement DevOps complet et scalable
+> Environnement DevSecOps complet et scalable
 
 - Traefik v3 + HTTPS automatique (Let's Encrypt)
 - Reseaux & users Linux dedies par projet
@@ -138,6 +151,7 @@
 
 - **VMS & Video** : 3 ans sur plateforme de gestion video (GStreamer, RTSP, ONVIF, IA temps reel)
 - **R&D** : Vision par ordinateur (C++, ROS), Realite augmentee (Unity, C#)
+- **Backend & Gestion de projet** : Developpement d'APIs Java/Spring Boot, coordination technique et suivi de releases
 
 ---
 
@@ -152,4 +166,4 @@
 
 ---
 
-> Construire, optimiser, documenter, deployer — toujours progresser.
+> Construire, optimiser, documenter, deployer et progresser.

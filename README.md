@@ -75,16 +75,12 @@
 
 ---
 
-### AI Agents — Geopol, Trail Coach, Instagram Manager
-> Ecosysteme d'agents IA autonomes : briefings quotidiens et analytics Instagram
+### AI Agents
+> Agents IA autonomes : briefings quotidiens par email et analytics Instagram
 
-- **Stack** : Python, FastAPI, Flask, Mistral AI, SQLAlchemy, APScheduler, Meta Graph API
-- **Architecture** : Multi-agents (RSS collector → LLM synthesizer → emailer), modules partages entre agents
-- **Geopol** : Synthese geopolitique quotidienne depuis 12 sources RSS internationales + interface web Flask
-- **Trail Coach** : Coach trail/ultra personnalise avec conseils entrainement et nutrition
-- **Instagram** : Dashboard React + Tailwind, KPIs, tracking followers, calendrier contenu, health score
-
-[instagram.victordevdev.ovh](https://instagram.victordevdev.ovh)
+- **Stack** : Python, FastAPI, Flask, Mistral AI, Meta Graph API
+- **Architecture** : Multi-agents (RSS → LLM → Email), modules partages
+- **Agents** : Geopolitique, Trail/Ultra coaching, Instagram analytics
 
 ---
 

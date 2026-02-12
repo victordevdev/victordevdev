@@ -64,39 +64,6 @@
 
 ## Projets Personnels
 
-### VicTeam Instagram Manager
-> Dashboard analytique et coach IA pour compte Instagram [@victeam.run](https://instagram.com/victeam.run)
-
-- **Backend** : Python, FastAPI, SQLAlchemy async, APScheduler
-- **Frontend** : React 18, Vite, Tailwind CSS, Recharts
-- **IA** : Mistral AI — briefing quotidien par email avec analyse de performance
-- **API** : Meta Graph API v21.0 (profil, posts, stories, token lifecycle)
-- **Features** : KPIs, tracking followers toutes les 3h, calendrier contenu, growth actions, health score 0-100
-- **Securite** : API key auth, CORS restreint, Basic Auth Traefik
-
-[instagram.victordevdev.ovh](https://instagram.victordevdev.ovh)
-
----
-
-### Geopol Agent
-> Briefing geopolitique quotidien automatise par IA
-
-- **Stack** : Python, Mistral AI, RSS, SMTP, Flask
-- **Architecture** : Multi-agents (collector → synthesizer → emailer), modules partages
-- **Features** : 12 sources RSS internationales, synthese IA 800-1200 mots, envoi Gmail quotidien
-- **Web** : Interface Flask pour gestion personnalisee des sources, prompts et planning
-
----
-
-### Trail Coach Agent
-> Coach trail/ultra personnalise — briefing quotidien par email
-
-- **Stack** : Python, Mistral AI, RSS, SMTP
-- **Features** : Analyse sources trail, conseils entrainement, nutrition, strategie course
-- **Architecture** : Meme pattern multi-agents que Geopol, modules shared/
-
----
-
 ### MyFinishTime
 > Analyse de performance running avec metriques avancees basees sur les donnees Strava d'un utilisateur
 
@@ -105,6 +72,19 @@
 - **Concept** : Visualiser sa progression et predire ses temps de course
 
 [mft.victordevdev.ovh](https://mft.victordevdev.ovh)
+
+---
+
+### AI Agents — Geopol, Trail Coach, Instagram Manager
+> Ecosysteme d'agents IA autonomes : briefings quotidiens et analytics Instagram
+
+- **Stack** : Python, FastAPI, Flask, Mistral AI, SQLAlchemy, APScheduler, Meta Graph API
+- **Architecture** : Multi-agents (RSS collector → LLM synthesizer → emailer), modules partages entre agents
+- **Geopol** : Synthese geopolitique quotidienne depuis 12 sources RSS internationales + interface web Flask
+- **Trail Coach** : Coach trail/ultra personnalise avec conseils entrainement et nutrition
+- **Instagram** : Dashboard React + Tailwind, KPIs, tracking followers, calendrier contenu, health score
+
+[instagram.victordevdev.ovh](https://instagram.victordevdev.ovh)
 
 ---
 

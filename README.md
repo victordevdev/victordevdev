@@ -2,11 +2,12 @@
 
 <h1 align="center">Victor Ducray</h1>
 <p align="center">
-  <strong>Ingenieur Logiciel </strong> · 5 ans d'experience · Backend & Systemes · DevSecOps · Trailer
+  <strong>Ingenieur Logiciel </strong> · 5 ans d'experience · Backend & Systemes · AI Agents · DevSecOps · Trailer
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-FastAPI-3776AB?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Mistral_AI-Agents-FF7000?logoColor=white" />
   <img src="https://img.shields.io/badge/GStreamer-Video_Pipeline-EE3124?logo=gnome&logoColor=white" />
   <img src="https://img.shields.io/badge/Java_17-Spring_Boot_3-6DB33F?logo=springboot&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-Production-FCC624?logo=linux&logoColor=black" />
@@ -35,9 +36,11 @@
 ### Backend
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
 ![Java](https://img.shields.io/badge/Java_17-007396?logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?logo=springboot&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
 
 ### Frontend
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
@@ -45,7 +48,8 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/TailwindCSS-0EA5E9?logo=tailwindcss&logoColor=white)
 
-### IA & Computer Vision
+### IA, Agents & Computer Vision
+![Mistral AI](https://img.shields.io/badge/Mistral_AI-FF7000?logoColor=white)
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?logo=yolo&logoColor=black)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
 
@@ -60,11 +64,44 @@
 
 ## Projets Personnels
 
+### VicTeam Instagram Manager
+> Dashboard analytique et coach IA pour compte Instagram [@victeam.run](https://instagram.com/victeam.run)
+
+- **Backend** : Python, FastAPI, SQLAlchemy async, APScheduler
+- **Frontend** : React 18, Vite, Tailwind CSS, Recharts
+- **IA** : Mistral AI — briefing quotidien par email avec analyse de performance
+- **API** : Meta Graph API v21.0 (profil, posts, stories, token lifecycle)
+- **Features** : KPIs, tracking followers toutes les 3h, calendrier contenu, growth actions, health score 0-100
+- **Securite** : API key auth, CORS restreint, Basic Auth Traefik
+
+[instagram.victordevdev.ovh](https://instagram.victordevdev.ovh)
+
+---
+
+### Geopol Agent
+> Briefing geopolitique quotidien automatise par IA
+
+- **Stack** : Python, Mistral AI, RSS, SMTP, Flask
+- **Architecture** : Multi-agents (collector → synthesizer → emailer), modules partages
+- **Features** : 12 sources RSS internationales, synthese IA 800-1200 mots, envoi Gmail quotidien
+- **Web** : Interface Flask pour gestion personnalisee des sources, prompts et planning
+
+---
+
+### Trail Coach Agent
+> Coach trail/ultra personnalise — briefing quotidien par email
+
+- **Stack** : Python, Mistral AI, RSS, SMTP
+- **Features** : Analyse sources trail, conseils entrainement, nutrition, strategie course
+- **Architecture** : Meme pattern multi-agents que Geopol, modules shared/
+
+---
+
 ### MyFinishTime
-> Analyse de performance running avec metriques avancees basées sur les données strava d'un utilisateur
+> Analyse de performance running avec metriques avancees basees sur les donnees Strava d'un utilisateur
 
 - **Stack** : Next.js, TypeScript, Strava API, OAuth 2.0
-- **Features** : Performance Index UTMB / ITRA, analyse sur 12 mois, option de partage des prédictions
+- **Features** : Performance Index UTMB / ITRA, analyse sur 12 mois, option de partage des predictions
 - **Concept** : Visualiser sa progression et predire ses temps de course
 
 [mft.victordevdev.ovh](https://mft.victordevdev.ovh)
@@ -135,8 +172,9 @@
 
 | Domaine | Details |
 |---------|---------|
+| **AI Agents** | Mistral AI, pipelines RSS → LLM → Email, scheduling, architectures multi-agents |
 | **Video & Streaming** | GStreamer, RTSP, ONVIF, HLS, pipelines temps reel |
-| **Protocoles** | MQTT, REST, WebSocket, OAuth 2.0 |
+| **Protocoles** | MQTT, REST, WebSocket, OAuth 2.0, Meta Graph API |
 | **Debug & Profiling** | GDB, Valgrind, GST_DEBUG, memory management |
 | **Methodologie** | CI/CD, code review, tests automatises, documentation technique |
 | **Langues** | Francais (natif), Anglais (C1 Cambridge) |

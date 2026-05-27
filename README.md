@@ -115,6 +115,19 @@
 
 ---
 
+<!-- ====== INFRA ====== -->
+
+## Deploiement & Infra
+
+> Chaque projet est deploye automatiquement sur un VPS arm64 (Hetzner) via CI/CD GitHub Actions.
+
+- **Pipeline** : Push sur `main` → build Docker → push Docker Hub → deploy SSH automatique
+- **Reverse proxy** : Traefik v3, HTTPS automatique (Let's Encrypt), multi-services
+- **Temps de deploy** : ~3 min du commit au live
+- **Stack** : Docker Compose, images arm64 natives, QEMU pour cross-compilation
+
+---
+
 <!-- ====== CONTACT ====== -->
 
 ## Contact

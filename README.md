@@ -18,8 +18,6 @@
 <p align="center">
   <a href="https://victordevdev.ovh">Portfolio</a> ·
   <a href="https://victordevdev.ovh/outils-running">Outils Trail</a> ·
-  <a href="https://www.strava.com/athletes/73129063">Strava</a> ·
-  <a href="https://instagram.com/victeam.run">Instagram</a> ·
   <a href="https://www.linkedin.com/in/victor-ducray-a250221b8">LinkedIn</a>
 </p>
 
@@ -126,8 +124,7 @@
 | **Email** | victor.ducray.dev@proton.me |
 | **Portfolio** | [victordevdev.ovh](https://victordevdev.ovh) |
 | **Outils Trail** | [victordevdev.ovh/outils-running](https://victordevdev.ovh/outils-running) |
-| **Instagram** | [@victeam.run](https://instagram.com/victeam.run) |
-| **Strava** | [Victor Ducray](https://www.strava.com/athletes/73129063) |
+| **LinkedIn** | [Victor Ducray](https://www.linkedin.com/in/victor-ducray-a250221b8) |
 
 ---
 

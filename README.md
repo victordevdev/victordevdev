@@ -2,7 +2,7 @@
 
 <h1 align="center">Victor Ducray</h1>
 <p align="center">
-  <strong>Ingenieur Logiciel</strong> · 5 ans d'experience · Backend & Systemes · DevSecOps · Ultra-traileur
+  <strong>Ingenieur Logiciel</strong> · 5 ans d'experience · Backend & Systemes · DevSecOps · IA & Agents · Ultra-traileur
 </p>
 
 <p align="center">
@@ -12,6 +12,7 @@
   <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/AI_Agents-Claude-cc785c?logo=anthropic&logoColor=white" />
 </p>
 
 <p align="center">
@@ -111,6 +112,7 @@
 
 - **VMS & Video** : 3 ans sur plateforme de gestion video (GStreamer, RTSP, ONVIF, IA temps reel)
 - **R&D** : Vision par ordinateur (C++, ROS), Realite augmentee (Unity, C#)
+- **IA & Agents** : Agent trail intelligent (pronostics, coaching, analyse de courses)
 - **Backend & Gestion de projet** : APIs Java/Spring Boot, coordination technique et suivi de releases
 
 ---

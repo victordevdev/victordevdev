@@ -51,11 +51,33 @@
 
 ---
 
-### TrailReview *(prochainement)*
+### Ultra Destin
+> Le jeu de trail : une carriere entiere de traileur, du 10 km du village a l'UTMB
+
+- **Stack** : Next.js 16, React 19, TypeScript, SQLite
+- **Features** : carriere saison par saison, 240 courses, 779 evenements, classement, defi du jour, FR/EN
+
+[ultra-destin.victordevdev.ovh](https://ultra-destin.victordevdev.ovh)
+
+---
+
+### Vas-tu DNF ?
+> Ta probabilite d'abandon sur le Big Four de l'ultra, verdict en 30 secondes
+
+- **Stack** : Next.js 16, TypeScript
+- **Features** : modele hybride (taux de base x coureur x conditions), dossard partageable, FR/EN
+
+[vas-tu-dnf.victordevdev.ovh](https://vas-tu-dnf.victordevdev.ovh)
+
+---
+
+### TrailReview
 > Decouvrir et mettre en avant les petites courses de trail qui meritent d'etre connues
 
 - **Stack** : Next.js 16, React 19, Prisma 7, PostgreSQL, NextAuth 5
 - **Features** : 230+ courses, reviews multi-criteres, comparateur radar, carte Leaflet, badges
+
+[trailreview.victordevdev.ovh](https://trailreview.victordevdev.ovh)
 
 ---
 
@@ -84,7 +106,7 @@
 
 ### DevOps & Infra
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Traefik](https://img.shields.io/badge/Traefik_v3-24A1C1?logo=traefikmesh&logoColor=white)
+![Traefik](https://img.shields.io/badge/Traefik_v2-24A1C1?logo=traefikmesh&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 
 ---
@@ -122,7 +144,7 @@
 > Chaque projet est deploye automatiquement sur un VPS arm64 (Hetzner) via CI/CD GitHub Actions.
 
 - **Pipeline** : Push sur `main` → build Docker → push Docker Hub → deploy SSH automatique
-- **Reverse proxy** : Traefik v3, HTTPS automatique (Let's Encrypt), multi-services
+- **Reverse proxy** : Traefik v2, derriere Cloudflare, HTTPS automatique (Let's Encrypt), multi-services
 - **Temps de deploy** : ~3 min du commit au live
 - **Stack** : Docker Compose, images arm64 natives, QEMU pour cross-compilation
 

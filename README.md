@@ -61,16 +61,6 @@
 
 ---
 
-### Vas-tu DNF ?
-> Ta probabilite d'abandon sur le Big Four de l'ultra, verdict en 30 secondes
-
-- **Stack** : Next.js 16, TypeScript
-- **Features** : modele hybride (taux de base x coureur x conditions), dossard partageable, FR/EN
-
-[vas-tu-dnf.victordevdev.ovh](https://vas-tu-dnf.victordevdev.ovh)
-
----
-
 ### TrailReview
 > Decouvrir et mettre en avant les petites courses de trail qui meritent d'etre connues
 

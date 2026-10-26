@@ -61,6 +61,18 @@
 
 ---
 
+### Guess the Trace · Bêta privée
+> Tu reconnais ce trail ?
+
+Une trace, quatre réponses. Teste ta culture trail et donne ton avis avant la sortie publique.
+
+- **Stack** : Next.js, React, PostgreSQL
+- **Statut** : bêta privée, accès sur demande
+
+[Demander un accès](https://guess-the-trace.victordevdev.ovh/fr/access)
+
+---
+
 ### TrailReview
 > Decouvrir et mettre en avant les petites courses de trail qui meritent d'etre connues
 
